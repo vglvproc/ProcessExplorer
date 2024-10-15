@@ -1,6 +1,6 @@
 # ProcessExplorer
 
-**ProcessExplorer** is a Linux-based command-line tool designed to explore various aspects of process behavior on a Linux system. While the project aims to eventually cover many facets of process functionality, including memory usage and other resource management details, it currently focuses on illustrating a few key process states: Running, Sleeping, and Zombie. These states are visualized using shell scripts and small C programs.
+**ProcessExplorer** is a Linux-based command-line tool designed to explore various aspects of process behavior on a Linux system. While the project aims to eventually cover many facets of process functionality, including memory usage and other resource management details, it currently focuses on illustrating a few key process states: Running, Sleeping, Stopped and Zombie. These states are visualized using shell scripts and small C programs.
 
 ## Usage
 
@@ -22,6 +22,11 @@
    - **Sleeping state:**
      ```bash
      ./scripts/illustrate_sleeping.sh
+     ```
+
+   - **Stopped state:**
+     ```bash
+     ./scripts/illustrate_stopped.sh
      ```
 
    - **Zombie state:**
